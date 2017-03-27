@@ -1,0 +1,26 @@
+LinearLayout--> 
+work either horizontally(row-x coordinate) or vertically(column-y coordinate)
+
+mandatory attribute--> orientation="Hori/ver."
+			by default="Horizontal"
+
+
+Linear Layout--> registration form
+
+
+
+Padding and margins
+
+Padding--> within widget or layout
+
+Margins--> outside the widget or layout
+
+orientation
+
+layout_gravity--> outside work--> work on complete layout
+
+gravity--> within layout work
+
+layout_weight: widget-->priority
+
+eg--> textview and edittext--> edittext higher , textview lower
