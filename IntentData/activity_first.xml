@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bmpl.signinout.FirstActivity"
+    android:orientation="vertical"
+    android:background="@android:color/holo_red_light"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ram"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:id="@+id/nameEditText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ram@gmail.com"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:textStyle="italic"
+        android:textSize="22sp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/emailEditText"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="22sp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:hint="ram"
+        android:layout_marginTop="10dp"
+        android:textColorHint="@android:color/white"
+        android:inputType="textPassword"
+        android:id="@+id/passwordEditText"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Create Account"
+        android:background="@android:color/holo_red_dark"
+        android:theme="@style/MyButtonStyle"
+        android:id="@+id/button"/>
+
+</LinearLayout>
