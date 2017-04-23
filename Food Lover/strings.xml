@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">FoodLover</string>
+    <string name="questionOne">"Which food would you like to have in morning?"</string>
+    <string name="questionTwo">"Rate yourself on how much sweets you like?"</string>
+    <string name="icecream">Ice Cream</string>
+    <string name="cake">Cake</string>
+    <string name="burger">Burger</string>
+    <string name="comfortable">"Liking: 0/10"</string>
+    <string name="questionThree">"One food you cannot live without?"</string>
+    <string name="checkResult">Check Result</string>
+</resources>
